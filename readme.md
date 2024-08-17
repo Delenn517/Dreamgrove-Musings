@@ -548,8 +548,22 @@ __Which bleeds are snapshotted?__
 
 A bleed will ideally be applied only when 30% or less of the prior bleed remains. This triggers a mechanic known as “pandemic,” which is common to most damage over time spells.  
 
+## What is “pandemic range?”
+The baseline duration of a DoT can be extended by up to 30% if a target is already affected by that DoT. Due to the 30% cap on extension, the DoT ought not to be refreshed early, or potential ticks will be lost. The ideal window of time to refresh a DoT is known as its “pandemic range.” 
 
-## What does pandemic refer to?
+Let’s use an example. Consider a 10 second DoT:
+* Refresh with 1s remaining: the new DoT will be 11s long (10s baseline duration + 1s from prior DoT)
+* Refresh with 3s remaining: the new DoT will be 13s long (10s baseline duration + 3s from prior DoT)
+* Refresh with 8s remaining: the new DoT will still be 13s long (10s baseline + up to 30% from prior DoT)
+
+It is therefore best to wait until 70% or more of your bleed has ticked to refresh its DoT. 
+
+Fun trivia: the name “pandemic” derives from an old warlock passive that was eventually integrated as a baseline feature of damage over time spells. 
+
+__What is “clipping?”__
+
+Clipping refers to refreshing a dot prior to its pandemic window
+Important note: Rake is the only bleed that ought to be clipped early to maintain stronger snapshots
 
 
 
