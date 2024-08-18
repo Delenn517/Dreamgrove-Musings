@@ -641,7 +641,7 @@ Many abilities that are cast on allies - Rejuvenation, Regrowth, Innervate, etc 
 
 **Cast Rebirth on an ally:**
 
-Casts Rebirth when you mouseover a friendly. If the ally is already alive, this macro instead casts Mark of the Wild.
+This macro casts Rebirth on your current friendly mouseover target. If your ally is alive, the macro instead casts Mark of the Wild.
 ```
 #showtooltip
 /cast [@mouseover, help, dead] Rebirth; Mark of the Wild
