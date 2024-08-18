@@ -538,18 +538,18 @@ __Which bleeds are snapshotted?__
 * !Rake!’s snapshot can also be buffed by: 
     * !Prowl!
     * !Shadowmeld!
-    * !Pouncing Strikes! procs
+    * !390772/Pouncing Strikes! procs
 * Rip’s snapshot can also be buffed by:
     * !Bloodtalons!
 * Thrash’s snapshot can also be buffed by:
-    * Moment of Clarity
+    * !236068/Moment of Clarity!
 * Shred’s snapshot can also be buffed by:
-    * Pouncing Strikes procs (usually, though, Pouncing Strikes is used on !Rake!)
+    * !390772/Pouncing Strikes! procs (usually, though, !390772/Pouncing Strikes! is used on !Rake!)
 
 A bleed will ideally be applied only when 30% or less of the prior bleed remains. This triggers a mechanic known as “pandemic,” which is common to most damage over time spells.  
 
 ## What is “pandemic range?”
-The baseline duration of a DoT can be extended by up to 30% if a target is already affected by that DoT. Due to the 30% cap on extension, the DoT ought not to be refreshed early, or potential ticks will be lost. The ideal window of time to refresh a DoT is known as its “pandemic range.” 
+This term refers to a DoT mechanic in WoW. The baseline duration of a DoT can be extended by up to 30% if a target is already affected by that DoT. Due to the 30% cap on extension, the DoT ought not to be refreshed early, or potential ticks will be lost. The ideal window of time to refresh a DoT is known as its “pandemic range.” 
 
 Let’s use an example. Consider a 10 second DoT:
 * Refresh with 1s remaining: the new DoT will be 11s long (10s baseline duration + 1s from prior DoT)
