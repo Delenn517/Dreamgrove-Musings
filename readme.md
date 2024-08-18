@@ -662,28 +662,28 @@ Each package contains multiple WeakAuras that work with each other to help you u
 
 ### **Common Standalone WeakAuras and Addons**
 
-None of these WeakAuras are _required,_ but using them may elevate your gameplay.
+None of these WeakAuras or Addons are _required,_ but using them may elevate your gameplay.
 
 [Feral Bleed Power by Oi](https://wago.io/qYnbZzlmP)
 This WA will make it easier to track the power of your next bleed compared to the currently active one. For more details, check out the WA description. 
 
 [Feral Snapshots by Enth](https://www.curseforge.com/wow/addons/feralsnapshots)
-An addon alternative. This can also show snapshot details on your enemy nameplates (default and plater) or personal resource display. For more details, check out the WA description.
+This Addon does many things, including tracking the talents, buffs and damage modifiers affecting DoT abilities. This information is displayed on WAs, standard Blizzard nameplates, Plater, and other addons. For more details, check out the Addon description.
 
 [Rake Plater mods by Sretnuh](https://wago.io/p/Sretnuh)
-Search through these to see what you like, these Plater mods help identify which targets have your rake on them at a glance. For more details, check out the WA description.
+This links to a collection of Rake mods for the Plater addon. Their purpose is to help you track which targets have Rake at a glance. No listed mod is superior to the others. We recommend you try out several, and settle on your favorite. 
 
 [Apex Predator's Craving by Marvel](https://wago.io/KzSX7dDMM)
-Alerts you when you have an !Apex Predator's Craving! (free bite) proc with a glowing icon and a sound. For more details, check out the WA description.
+This WA produces a glowing icon + sound cue when !Apex Predator's Craving! procs for a free bite. For more details, check out the WA description.
 
 [Adaptive Swarm Helper by KnewOne](https://wago.io/0P93t1-nG)
-See the description of the WA for more details. This will assist you with using Adaptive Swarm, including Unbridled Swarm support for ally targeting. For more details, check out the WA description.
+ This WA assists with proper use of !325727|Adaptive Swarm!. It also includes Unbridled Swarm support for when you need to cast Swarm on allies in need of health. For more details, check out the WA description.
 
 [Bloodtalons Tracker from Fore's pack](https://wago.io/cQkL9nrAw)
-This tracks your progress towards procing !Bloodtalons!, showing the 4 second timer for each spell you cast towards it. For more details, check out the WA description.
+This WA tracks your progress towards crucial procs of !Bloodtalons!. Bloodtalons is procced when you cast three different combo point generation abilities within 4s. This WA displays the 4s timer. For more details, check out the WA description.
 
 [Bloodtalons Tracker from Cheesey's pack](https://wago.io/zinn-QaFI)
-Additional BT tracker. For more details, check out the WA description.
+This WA is another alternative for tracking crucial procs of !Bloodtalons!. For more details, check out the WA description.
 
 [Focus Skull Bash](https://wago.io/mOvsNkzJ7)
-Helps emphasise focus kicks when your Skull Bash is off CD. For more details, check out the WA description.
+This WA tracks when your Skull Bash interrupt is off cooldown and ready for use on your Focus target. For more details, check out the WA description.
