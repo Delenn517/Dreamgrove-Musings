@@ -562,33 +562,40 @@ Fun trivia: the name “pandemic” derives from an old warlock passive that was
 
 __What is “clipping?”__
 
-Clipping refers to refreshing a dot prior to its pandemic window
-Important note: Rake is the only bleed that ought to be clipped early to maintain stronger snapshots
+Clipping refers to refreshing a dot prior to its pandemic window.
+_Important note:_ Rake is the only bleed that ought to be clipped early to maintain stronger snapshots.
 
 
 
 ## Macros
 
-None of these macros are required by any means, just a few that can be useful for some people.
+Here, we provide a list of macros. These macros are not _required_, but using them may elevate your gameplay. (_Note:_ These macros are not set in stone. Customize them as you see fit!)
 
-**Macro combining Lunar Inspiration !Moonfire! and !391528|Convoke! to one bind:**
+
+**Tie Lunar Inspiration !Moonfire! and !391528|Convoke! to one keybind:**
 
 ```
 #showtooltip
 /cast [known: Lunar Inspiration] Moonfire; [known: Convoke the Spirits] Convoke the Spirits
 ```
-The idea behind this macro is that there are no talent builds that play both of these things.
+This macro helps save a keybind, as there are no talent builds that play both Lunar Inspiration and Convoke at the same time.
 
-**Ursol's Vortex @cursor macro:**
+**Cast Ursol's Vortex at your cursor location (@cursor macro):**
 
 ```
 #showtooltip
 /cast [@cursor] Ursol's Vortex
 ```
 
-**Trinket macro:**
+**Use your trinket(s) and/or weapon at the same time as an ability:**
 
-If you are using an on-use trinket/weapon that should go along with your cooldowns, use the following macro: (/13 for top trinket slot, /14 for bottom trinket slot and /16 for weapon.)
+Some trinkets and weapons ought to be procced at the same time as a major cooldown. It is best to macro these items with Berserk. 
+* 13 is the top trinket slot
+* 14 is the bottom trinket slot
+* 16 is your weapon
+
+If you would like to use all three items with Berserk, use this macro:
+
 ```
 #showtooltip
 /use 13
@@ -596,39 +603,51 @@ If you are using an on-use trinket/weapon that should go along with your cooldow
 /use 16
 /cast Berserk
 ```
+This macro may be modified. For example, the macro below only uses the 2nd trinket with Berserk:
 
-**Entangling Roots macro:**
+```
+#showtooltip
+/use 14
+/cast Berserk
+```
 
-Casts Entangling Roots on a target you mouseover, otherwise casts on current target if no mouseover.
+**Cast Entangling Roots on mouseover:**
+
+This macro casts Entangling Roots on your mouseover target. If you do not have a mouseover target, the macro instead casts Entangling Roots on your current target.
 ```
 #showtooltip
 /cast [@mouseover, harm, nodead] [] Entangling Roots
 ```
 
-**Focus Skull Bash:**
+**Skull Bash your Focus:**
 
-Casts Skull Bash at your focus target, or current target if there is no eligible enemy focus target. Remember to bind focus target in WoW keybind settings.
+This macro casts Skull Bash on your focus target. If you have not set a focus target, the macro instead casts Skull Bash on your current target.
+
+We recommend creating a keybind that will assign a target as your focus with one click. This option can be found in the game's keybind settings. 
 ```
 #showtooltip
 /cast [@focus, harm, nodead] [] skull bash
 ```
 
-**Adaptive Swarm macro:**
+**Cast Adaptive Swarm on friendly or enemy mouseover:**
 
-Casts Swarm on your current target, or a friendly if you mouseover them. This can be applied to numerous abilities you cast on allies (Dispel, Rejuv/Regrowth, Innervate etc to save on keybinds), as seen in the Rebirth macro further below. 
+This macro casts Adaptive Swarm on your current mouseover target. If you do not have a mouseover target, the macro instead casts Adaptive Swarm on your Casts Swarm on your current target. Your mouseover target may be a friendly.
+
+Many abilities that are cast on allies - Rejuvenation, Regrowth, Innervate, etc - may be macro'd in this fashion. To make those macros, replace "Adaptive Swarm" with your spell of choice.
 ```
 #showtooltip
 /cast [@mouseover, help, nodead] [] Adaptive Swarm 
 ```
 
-**Rebirth/Other Macro:**
+**Cast Rebirth on an ally:**
 
-Casts Rebirth when you mouseover a friendly, or otherwise Mark of the Wild. Customise these macros how you please. 
+Casts Rebirth when you mouseover a friendly. If the ally is already alive, this macro instead casts Mark of the Wild.
 ```
 #showtooltip
 /cast [@mouseover, help, dead] Rebirth; Mark of the Wild
 ```
  
+
 ## Useful WeakAura(s)
 
 ### **Feral Weakaura Packs**
