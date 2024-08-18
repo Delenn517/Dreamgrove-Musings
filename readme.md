@@ -565,12 +565,9 @@ __What is “clipping?”__
 Clipping refers to refreshing a dot prior to its pandemic window.
 _Important note:_ Rake is the only bleed that ought to be clipped early to maintain stronger snapshots.
 
-
-
 ## Macros
 
-Here, we provide a list of macros. These macros are not _required_, but using them may elevate your gameplay. (_Note:_ These macros are not set in stone. Customize them as you see fit!)
-
+Here, we provide a list of helpful macros. These macros are not _required_, but using them may elevate your gameplay. (_Note:_ These macros are not set in stone. Customize them as you see fit!)
 
 **Tie Lunar Inspiration !Moonfire! and !391528|Convoke! to one keybind:**
 
@@ -578,7 +575,7 @@ Here, we provide a list of macros. These macros are not _required_, but using th
 #showtooltip
 /cast [known: Lunar Inspiration] Moonfire; [known: Convoke the Spirits] Convoke the Spirits
 ```
-This macro helps save a keybind, as there are no talent builds that play both Lunar Inspiration and Convoke at the same time.
+This macro helps save a keybind, as there are no talent builds that play both Lunar Inspiration !Moonfire! and !391528|Convoke! at the same time.
 
 **Cast Ursol's Vortex at your cursor location (@cursor macro):**
 
@@ -611,15 +608,15 @@ This macro may be modified. For example, the macro below only uses the 2nd trink
 /cast Berserk
 ```
 
-**Cast Entangling Roots on mouseover:**
+**Cast Entangling Roots on your mouseover target:**
 
-This macro casts Entangling Roots on your mouseover target. If you do not have a mouseover target, the macro instead casts Entangling Roots on your current target.
+This macro casts Entangling Roots on your mouseover target. If your mouse is not hovering over a target, the macro instead casts Entangling Roots on your current target.
 ```
 #showtooltip
 /cast [@mouseover, harm, nodead] [] Entangling Roots
 ```
 
-**Skull Bash your Focus:**
+**Skull Bash your Focus target:**
 
 This macro casts Skull Bash on your focus target. If you have not set a focus target, the macro instead casts Skull Bash on your current target.
 
@@ -629,11 +626,11 @@ We recommend creating a keybind that will assign a target as your focus with one
 /cast [@focus, harm, nodead] [] skull bash
 ```
 
-**Cast Adaptive Swarm on friendly or enemy mouseover:**
+**Cast Adaptive Swarm on your ally or enemy mouseover target:**
 
-This macro casts Adaptive Swarm on your current mouseover target. If you do not have a mouseover target, the macro instead casts Adaptive Swarm on your Casts Swarm on your current target. Your mouseover target may be a friendly.
+This macro casts Adaptive Swarm on your mouseover target. If your mouse is not hovering over a target, the macro instead casts Adaptive Swarm on your current target. (Your mouseover target may be an ally.)
 
-Many abilities that are cast on allies - Rejuvenation, Regrowth, Innervate, etc - may be macro'd in this fashion. To make those macros, replace "Adaptive Swarm" with your spell of choice.
+Many abilities that are cast on allies - Rejuvenation, Regrowth, Innervate, etc - may be macro'd in this fashion. To make those macros, simply replace the term "Adaptive Swarm" with your spell of choice.
 ```
 #showtooltip
 /cast [@mouseover, help, nodead] [] Adaptive Swarm 
@@ -647,11 +644,12 @@ This macro casts Rebirth on your current friendly mouseover target. If your ally
 /cast [@mouseover, help, dead] Rebirth; Mark of the Wild
 ```
  
-
 ## Useful WeakAura(s)
 
-### **Feral Weakaura Packs**
-The following links lead to various feral druid weakaura packs. These contain everything that's recommended to track to play at a high level. None of these are particular better or more useful than others, and which one you should use is up to your personal preference.
+### **Full WeakAura Packages for Feral**
+To play feral competently, many variables must be tracked. A single WeakAura is not up to this task, so our contributors have spent many hours assembling full WA packages. 
+
+Each package contains multiple WeakAuras that work with each other to help you understand what's happening in combat. No package is superior to the others in the list. We recommend you try out several, and settle on your favorite.
  
 - [by Drufearr](https://wago.io/us2RURgE6) 
 - [by Chips](https://wago.io/WkTBZuH3y) 
@@ -660,29 +658,32 @@ The following links lead to various feral druid weakaura packs. These contain ev
 - [variant by Cheesey](https://wago.io/H3yjY1gs1)  
 - [by Guiltyas](https://wago.io/OaJQX6khW)
 - [by Oi/Dsune](https://wago.io/OiFeral)
-- [by enthh](https://wago.io/bfgPasy27) requires his [addon](https://www.curseforge.com/wow/addons/feralsnapshots)
+- [by enthh](https://wago.io/bfgPasy27) - requires his [addon](https://www.curseforge.com/wow/addons/feralsnapshots)
 
-### **Commonly used WeakAuras and Addons**
+### **Common Standalone WeakAuras and Addons**
+
+None of these WeakAuras are _required,_ but using them may elevate your gameplay.
+
 [Feral Bleed Power by Oi](https://wago.io/qYnbZzlmP)
-See the description of the WA for more details. This is not a required WA but will make it easier to track the power of your next bleed compared to the currently active one.
+This WA will make it easier to track the power of your next bleed compared to the currently active one. For more details, check out the WA description. 
 
 [Feral Snapshots by Enth](https://www.curseforge.com/wow/addons/feralsnapshots)
-An addon alternative. See the description for more details. This can also show snapshot details on your enemy nameplates (default and plater) or personal resource display.
+An addon alternative. This can also show snapshot details on your enemy nameplates (default and plater) or personal resource display. For more details, check out the WA description.
 
 [Rake Plater mods by Sretnuh](https://wago.io/p/Sretnuh)
-Search through these to see what you like, these Plater mods help identify which targets have your rake on them at a glance.
+Search through these to see what you like, these Plater mods help identify which targets have your rake on them at a glance. For more details, check out the WA description.
 
 [Apex Predator's Craving by Marvel](https://wago.io/KzSX7dDMM)
-Alerts you when you have an !Apex Predator's Craving! (free bite) proc with a glowing icon and a sound.
+Alerts you when you have an !Apex Predator's Craving! (free bite) proc with a glowing icon and a sound. For more details, check out the WA description.
 
 [Adaptive Swarm Helper by KnewOne](https://wago.io/0P93t1-nG)
-See the description of the WA for more details. This will assist you with using Adaptive Swarm, including Unbridled Swarm support for ally targeting.
+See the description of the WA for more details. This will assist you with using Adaptive Swarm, including Unbridled Swarm support for ally targeting. For more details, check out the WA description.
 
 [Bloodtalons Tracker from Fore's pack](https://wago.io/cQkL9nrAw)
-This tracks your progress towards procing !Bloodtalons!, showing the 4 second timer for each spell you cast towards it.
+This tracks your progress towards procing !Bloodtalons!, showing the 4 second timer for each spell you cast towards it. For more details, check out the WA description.
 
 [Bloodtalons Tracker from Cheesey's pack](https://wago.io/zinn-QaFI)
-Additional BT tracker.
+Additional BT tracker. For more details, check out the WA description.
 
 [Focus Skull Bash](https://wago.io/mOvsNkzJ7)
-Helps emphasise focus kicks when your Skull Bash is off CD.
+Helps emphasise focus kicks when your Skull Bash is off CD. For more details, check out the WA description.
