@@ -426,13 +426,15 @@ You can also use secondary food such as [Feisty Fish Sticks](https://www.wowhead
 
 ## Runes
 
-I apoogize for being annoying but, sim your character for the most accurate answer. Generally ~Convoke! builds do not want to play [Howling Rune](https://www.wowhead.com/item=194819/howling-rune) in single target if that is any consolation-but even that's not a guarantee. Make sure you select Rune (stat) (Main Hand) else it may not sim properly. ie: Buzzing (Crit) (Main Hand). Crit is the default setting.
+Runes are not set in stone for feral. There are too many variables. To understand which runes you should play, you ought to "simulate" (sim) your character. 
+
+Generally speaking, single target !Convoke! builds do not want to play [Howling Rune](https://www.wowhead.com/item=194819/howling-rune), but this is not always true. When you sim, make sure you select Rune (stat) (Main Hand), or it may not sim properly. (ie: Buzzing (Crit) (Main Hand). Crit is the default setting.)
 
 # Gearing:
  
 ## Stat Priority:
 
-Sim yourself using [Raidbots Top Gear](https://www.raidbots.com/simbot/topgear). Do not follow any stat priorities.
+Stat priority is not set in stone for feral. There are too many variables. To understand which stats you should prioritize with your current talents and gear, you ought to "simulate" (sim) your character using [Raidbots Top Gear](https://www.raidbots.com/simbot/topgear). You will be doing this often, so take the time to get used to this process.
 
 ## Enchants
 
@@ -644,10 +646,10 @@ This macro casts Rebirth on your current friendly mouseover target. If your ally
 /cast [@mouseover, help, dead] Rebirth; Mark of the Wild
 ```
  
-## Useful WeakAura(s)
+## Useful WeakAura(s) and Addons
 
 ### **Full WeakAura Packages for Feral**
-To play feral competently, many variables must be tracked. A single WeakAura is not up to this task, so our contributors have spent many hours assembling full WA packages. 
+To play feral competently, many variables must be tracked. A single WeakAura is not up to this task, so our contributors have spent many hours assembling full WA packages from individual WeakAuras. 
 
 Each package contains multiple WeakAuras that work with each other to help you understand what's happening in combat. No package is superior to the others in the list. We recommend you try out several, and settle on your favorite.
  
