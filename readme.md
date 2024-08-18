@@ -592,7 +592,7 @@ This macro helps save a keybind, as there are no talent builds that play both Lu
 Some trinkets and weapons ought to be procced at the same time as a major cooldown. It is best to macro these items with Berserk. 
 * 13 is the top trinket slot
 * 14 is the bottom trinket slot
-* 16 is your weapon
+* 16 is your weapon slot
 
 If you would like to use all three items with Berserk, use this macro:
 
