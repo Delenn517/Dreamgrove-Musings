@@ -243,6 +243,10 @@ The way this section is written is very formulaic and has the same structure as 
 
 # Talents:
 
+The talents in feral are highly customizable, allowing a seasoned player to respond to a variety of situations. Although useful, this flexibility can be intimidating to new players. Here, we attempt to simplify matters by introducing the talents in a reasonable manner.
+
+We begin by discussing talent builds to use in the different DragonFlight raids. Then, we look at talents to use with the current tier set. Finally, we visit talent recommendations for various M+ builds. 
+
 ## Raid Talents
 
 ### T31 4pc Talent Builds (Amirdrassil tier-set, still applies in season 4)
@@ -253,7 +257,7 @@ The way this section is written is very formulaic and has the same structure as 
 [Raid Cleave](https://www.wowhead.com/talent-calc/druid/feral/DARAUEEBCYpCFREExRQQBBOVRURRQVFVIUVRQCFQ)
 [Alternative L/R LI Single Target](https://www.wowhead.com/talent-calc/druid/feral/DARAUEEBCYpCFREExRQQBROVBAZRVVFUiURBQBE)
 [Alternative L/R BrS Single Target](https://www.wowhead.com/talent-calc/druid/feral/DARAUEEBCQpCFREExhUQBROVFAVRUVFViURBQCBQ) (slightly worse).
-- Note: generally best to play 'Standard Convoke' for single-target, assuming you have an on-use trinket like Ashes or Witherbark's. They sim equally, however Convoke offers more burst, and pulls ahead with Augmentation buffing you. Kill timers can also play a factor; if you are unsure, stick to Convoke. If you do play L/R, Infected Wounds can optionally be swapped for Lunar Inspiration with T31 as well.
+- Note: For single target, it is generally best to play 'Standard Convoke'  assuming you have an on-use trinket like Ashes or Witherbark's. They sim equally, however Convoke offers more burst, and pulls ahead with Augmentation buffing you. Kill timers can also play a factor; if you are unsure, stick to Convoke. If you do play L/R, Infected Wounds can optionally be swapped for Lunar Inspiration with T31 as well.
 
 ### Vault of the Incarnates Raid Boss Talents
 [Eranog](https://www.wowhead.com/talent-calc/druid/feral/DARAUEEBCYZCFRUExRQQBROVRQRRUVFVIVVBQCFU)
@@ -398,7 +402,7 @@ Options for the final gate:
 
 ![MythicClass](/static/images/feral-class-tree-mythic+.png)
 
-The druid tree offers a fair degree of customisation as Feral in M+, with a range of utility and defensive options. What is selected (yellow) is mandatory, with blue nodes being your options based on affixes or personal preference. 
+The druid class tree offers a high degree of customisation as Feral in M+, with a range of utility and defensive options. What is selected (yellow) is mandatory, with blue nodes being your options based on affixes or personal preference. 
 
 - !Remove Corruption! for Afflicted weeks. Additionally, the following dungeons have poison and curse dispels: Atal'Dazar, Darkheart Thicket, Throne of the Tides, and Waycrest Manor.
 - !Hibernate! for Incorporeal weeks.
@@ -428,7 +432,8 @@ You can also use secondary food such as [Feisty Fish Sticks](https://www.wowhead
 
 Runes are not set in stone for feral. There are too many variables. To understand which runes you should play, you ought to "simulate" (sim) your character. 
 
-Generally speaking, single target !Convoke! builds do not want to play [Howling Rune](https://www.wowhead.com/item=194819/howling-rune), but this is not always true. When you sim, make sure you select Rune (stat) (Main Hand), or it may not sim properly. (ie: Buzzing (Crit) (Main Hand). Crit is the default setting.)
+Generally speaking, single target !Convoke! builds do not want to play [Howling Rune](https://www.wowhead.com/item=194819/howling-rune), but this is not always true. When you sim, make sure you select Rune (stat) (Main Hand), or it may not sim properly. 
+* Ex of proper formatting for simming: Buzzing (Crit) (Main Hand). Crit is the default setting.
 
 # Gearing:
  
