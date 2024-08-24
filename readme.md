@@ -351,13 +351,13 @@ _Important note:_ Rake is the only bleed that ought to be clipped early to maint
 
 Here, we provide a list of helpful macros. These macros are not _required_, but using them may elevate your gameplay. (_Note:_ These macros are not set in stone. Customize them as you see fit!)
 
-**Tie Lunar Inspiration !Moonfire! and !391528|Convoke! to one keybind:**
+**Tie Lunar Inspiration !Moonfire! and !391528|Convoke the Spirits! to one keybind:**
 
 ```
 #showtooltip
 /cast [known: Lunar Inspiration] Moonfire; [known: Convoke the Spirits] Convoke the Spirits
 ```
-This macro helps save a keybind, as there are no talent builds that play both Lunar Inspiration !Moonfire! and !391528|Convoke! at the same time.
+This macro helps save a keybind, as there are no talent builds that play both Lunar Inspiration !Moonfire! and !391528|Convoke the Spirits! at the same time.
 
 **Cast Ursol's Vortex at your cursor location (@cursor macro):**
 
