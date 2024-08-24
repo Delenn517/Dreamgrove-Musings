@@ -320,13 +320,13 @@ __Which bleeds are snapshotted?__
 * !Rake!’s snapshot can also be buffed by: 
     * !Prowl!
     * !Shadowmeld!
-    * !390772/Pouncing Strikes! procs
+    * !390772|Pouncing Strikes! procs
 * Rip’s snapshot can also be buffed by:
     * !Bloodtalons!
 * Thrash’s snapshot can also be buffed by:
-    * !236068/Moment of Clarity!
+    * !236068|Moment of Clarity!
 * Shred’s snapshot can also be buffed by:
-    * !390772/Pouncing Strikes! procs (usually, though, !390772/Pouncing Strikes! is used on !Rake!)
+    * !390772|Pouncing Strikes! procs (usually, though, !390772|Pouncing Strikes! is used on !Rake!)
 
 A bleed will ideally be applied only when 30% or less of the prior bleed remains. This triggers a mechanic known as “pandemic,” which is common to most damage over time spells.  
 
